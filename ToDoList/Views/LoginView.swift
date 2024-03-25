@@ -17,7 +17,17 @@ struct LoginView: View {
             VStack{
                 HeaderView(title: "To Do List", subTitle: "Get things done.", angle: 15, backgroundColor: .pink)
                 
+                
+                
+                
+                
                 Form{
+                    
+                    if !viewModel.errorMessage.isEmpty {
+                        Text(viewModel.errorMessage)
+                            .foregroundColor(.red)
+                    }
+                    
                     TextField("Email Address", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocapitalization(.none)
