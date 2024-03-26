@@ -3,10 +3,10 @@
 Full featured universal (iOS, iPadOS) app.
 
 <div>
-    <img src="screenshots/ss01.png" width="200" />
-    <img src="screenshots/ss02.png" width="270" />
-    <img src="screenshots/ss03.png" width="220" />
-    <img src="screenshots/ss04.png" width="210" />
+    <img src="screenshots/ss01.png" width="180" />
+    <img src="screenshots/ss02.png" width="250" />
+    <img src="screenshots/ss03.png" width="200" />
+    <img src="screenshots/ss04.png" width="190" />
 </div>
 
 
